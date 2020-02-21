@@ -3,7 +3,7 @@ $(() => {
     const nameInput = $('#name__input');
     nameInput.on('input', () => {
         let value = nameInput.val();
-        nameInput.val(value.replace(/[^А-яё\s\-]/g, ''));
+        nameInput.val(value.replace(/[^А-яЁё\s\-]/g, ''));
     });
 
     const phoneInput = $('#phone__input');
