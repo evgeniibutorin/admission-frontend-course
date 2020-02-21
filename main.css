@@ -1,9 +1,8 @@
 .form__modal {
 	position: absolute;
-	top: 4.04%;
-	bottom: 44.92%;
+	top: 4%;
 
-	width: 481px;
+	width: 480px;
 	height: 392px;
 
 	/* Центрируем элемент */

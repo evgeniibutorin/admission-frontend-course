@@ -51,7 +51,7 @@ $(() => {
             url: "https://digital-spectr.com/ac/academy.php",
             data: JSON.stringify(data),
             contentType: "application/json",
-            success: (msg) => alert("Form Submitted: " + msg),
+            success: (msg) => alert("Form Submitted: " + JSON.stringify(msg)),
             error: (msg) => alert("Error: " + JSON.stringify(msg))
         });
     });
