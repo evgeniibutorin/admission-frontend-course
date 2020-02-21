@@ -1,0 +1,87 @@
+.form__modal {
+	position: absolute;
+	top: 4.04%;
+	bottom: 44.92%;
+
+	width: 481px;
+	height: 392px;
+
+	/* Центрируем элемент */
+	left: 50%;
+	margin-left: -240px;
+
+	background: #F7F5F9;
+	border-radius: 12px;
+}
+
+.form__container {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.form__container > input {
+	display: block;
+	background: #FFFFFF;
+	width: 100%;
+	height: 48px;
+	border: 1px solid #FFFFFF;
+	box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+	border-radius: 6px;
+	padding: 0 10px;
+	font-size: 18px;
+}
+
+.form__container > h3 {
+	margin-top: 40px;
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 20px;
+	color: #3B3D43;
+}
+
+.form__container > button {
+	background: #6979F8;
+	border-radius: 6px;
+	font-size: 15px;
+	color: #FFFFFF;
+	width: 100%;
+	border: 1px solid #6979F8;
+}
+
+.form__container > input,button {
+	height: 48px;
+	margin-top: 25px;
+	box-sizing : border-box;
+	outline: none;
+}
+
+.form__container > input:hover {
+	border: 1px solid #6979F8;
+}
+
+.form__container > input:focus {
+	border: 1px solid #854FC8;
+}
+
+.form__container > button:hover {
+	cursor: pointer;
+}
+
+.form__container > input::placeholder {
+	color: #D0C9D6;
+}
+
+/*
+	Убираем подсветку при выборе из выпадающего списка
+ */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+}
